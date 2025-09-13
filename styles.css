@@ -1,0 +1,29 @@
+/* Button hover effect */
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #2c80b4;
+  transform: scale(1.1);
+}
+
+/* Animated box */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  margin: 20px auto;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+/* Keyframe animation for bounce */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
